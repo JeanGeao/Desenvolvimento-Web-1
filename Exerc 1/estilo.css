@@ -1,0 +1,22 @@
+.tamanhoGrande{
+	font-size: 24px
+}
+
+.tamanhoPequeno{
+	font-size: 14px
+}
+
+#p1 {
+    color: green;
+}
+#p2 {
+    color: red;
+}
+#p3 {
+	color: blue;
+}
+p #azulGrande{
+	color: blue;
+	font-size: 24px
+}
+

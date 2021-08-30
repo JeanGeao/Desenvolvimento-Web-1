@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Página Inicial</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    
+    <p></p>
+    <form name="teste" action="conversaoServlet" method="POST">
+        <fieldset>
+            <legend>Conversão de Graus Celsius (°C) para Graus Fahrenheit (°F)</legend>
+            Valor mínimo:<br/> <input type="string" name="minValue" /> <br/>
+            E-Valor máximo:<br/> <input type="string" name="maxValue" /> <br/>
+            Valor incremento:<br/> <input type="string" name="incValue" /> <br/>
+						
+			<a href="conversaoServlet?minValue=-100&maxValue=100&incValue=5">
+				<input type="button" value="Inicializa Valores">
+			</a>
+			
+			
+            <input type="submit" name="enviar" value="Solicita a Conversao" /><br/>
+
+			
+        </fieldset>
+    </form>
+</body>
+
+</html>
